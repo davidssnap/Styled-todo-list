@@ -1,0 +1,95 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Styled To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+   <h1>My To-Do List</h2>
+    <ul class="todo-list">
+      <li>
+        <input type="checkbox" id="task1">
+        <label for="task1">Fitness Plan</label>
+        <ul class="sub-item">
+         <li><a href="www.workoutplan.com" class="sub-item-link" target="_blank">Workout Binder</a></li>
+        </ul>
+        </li>
+      <li>
+        <input type="checkbox" id="task2">
+        <label for="task2">Grocery Shopping</label>
+        <ul class="sub-item">
+        <li><a href="www.groceryshopping.com" class="sub-item-link" target="_blank">Store Link</a></li>
+        </ul>
+        </li>
+      <li>
+        <input type="checkbox" id="task3">
+        <label for="task3">Vacation Plans</label>
+        <ul class="sub-item">
+          <li><a href="www.travelplans.com" class="sub-item-link" target="_blank">Travel Link</a></li>
+        </ul>
+        </li>
+      <li>
+          <input type="checkbox" id="task4">
+          <label for="task4">Client Meetings</label>
+          <ul class="sub-item">
+            <li><a href="www.clientlist.com" class="sub-item-link" target="_blank">Client List</a></li>
+         </ul>
+         </li>
+
+<body>
+
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  
+}
+.sub-item {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+.sub-item-link {
+  text-decoration: none;
+  color: darkgreen;
+}
+.sub-item-link:visited {
+  color: purple;
+}
+.sub-item-link:hover {
+  color: orange;
+}
+.sub-item-link:focus {
+  outline: 2px solid teal;
+  outline-offset: 20px;
+}
+.sub-item-link:active {
+  color: red;
+}
+h1 {
+  text-align: center;
+}
+body {
+  padding: 20px;
+}
+.todo-list > li {
+  background-color: #e0f5e0;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0, 1);
+
+}
+
+** end of undefined **
+
